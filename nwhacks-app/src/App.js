@@ -1,16 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-// import Login from './containers/Login';
+import { Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
+import Login from "./containers/Login";
 
 class App extends Component {
   render() {
     return (
-      //Login
-      <p>
-            Hello World!
-      </p>
+      <div>
 
+      
+        {/* <p>
+              Hello World!
+        </p> */}
+
+        <Router>
+          {/* <Route path="/" component={Home}/> */}
+          <Route path="/" component={Login}/>
+        {/* <Route path="/products" component={Products}/> */}
+
+        </Router>
+        
+
+      </div>
+      
     );
   }
 }
