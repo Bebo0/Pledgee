@@ -47,19 +47,23 @@ export default class Login extends Component {
               onChange={this.handleChange}
               type="password"
             />
+
           </FormGroup>
-          <Link to="/">
+
+          <form action="http://google.com">
+            <input type="submit" value="Go to Google" />
+        </form>
+            {/* <Button block href={'/login'} size="large" type="submit">Login </Button> */}
+
           
-          
-            <Button
+            {/* <Button
                 block
                 bsSize="large"
                 disabled={!this.validateForm()}
                 type="submit"
             >
                 Login
-            </Button>
-          </Link>
+            </Button> */}
         </form>
       </div>
     );

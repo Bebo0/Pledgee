@@ -3,6 +3,7 @@ import './App.css';
 import { Link, Route, Switch } from 'react-router-dom';
 import { BrowserRouter as Router} from 'react-router-dom';
 import Login from "./containers/Login";
+import Sponsor from "./containers/Sponsor";
 
 class App extends Component {
   render() {
@@ -24,6 +25,11 @@ class App extends Component {
 
         <Router>
           <Route exact path="/" component={Home}/>
+
+        </Router>
+
+        <Router>
+          <Route exact path="/sponsor" component={Sponsor}/>
 
         </Router>
         
