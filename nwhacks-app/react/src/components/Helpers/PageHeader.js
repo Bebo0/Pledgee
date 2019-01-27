@@ -7,7 +7,7 @@ export default class PageHeader extends Component {
               <div className="page-header-inner">
                   <div className="page-header-content">
                       
-                      <h1>Welcome to Sponsor a Kid</h1>
+                      <h1>Welcome to Pledgey!</h1>
                       <p>
                        
                       </p>

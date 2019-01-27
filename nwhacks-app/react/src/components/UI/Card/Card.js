@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+
 export default class Card extends Component {
     getClasses() {
         if (this.props.image) {
