@@ -16,8 +16,14 @@ class App extends Component {
 
         <Router>
           {/* <Route path="/" component={Home}/> */}
-          <Route path="/" component={Login}/>
+          <Route path="/login" component={Login}/>
+          {/* <Route path="/dashboard" component={Dashboard}/> */}
         {/* <Route path="/products" component={Products}/> */}
+
+        </Router>
+
+        <Router>
+          <Route exact path="/" component={Home}/>
 
         </Router>
         
@@ -27,5 +33,11 @@ class App extends Component {
     );
   }
 }
+
+const Home = () => (
+  <div>
+    <h2>Home</h2>
+  </div>
+)
 
 export default App;
