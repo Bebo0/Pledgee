@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { Link, Route, Switch } from 'react-router-dom';
 import { BrowserRouter as Router} from 'react-router-dom';
-import Login from "./containers/Login";
-import Sponsor from "./containers/Sponsor";
+import Login from "./containers/Pages/Login";
+import Sponsor from "./containers/Pages/Sponsor";
 
 class App extends Component {
   render() {
