@@ -1,0 +1,15 @@
+{
+  "short_name": "HyperVote",
+  "name": "HyperVote - Online Voting",
+  "icons": [
+    {
+      "src": "http://oflisback.github.io/react-favicon/public/img/github.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
